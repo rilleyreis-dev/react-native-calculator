@@ -20,7 +20,8 @@ Aplicativo de uma simples calculadora, na qual realiza operações básicas.
 
 **React-Native**\
 **Typescript**\
-**Expo**
+**Expo**\
+**Figma**
 
 
 ## Screenshots
