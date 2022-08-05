@@ -1,7 +1,7 @@
 
 # Calculadora Simples em React Native
 
-Aplicativo de uma simples calculadora, na qual realiza operações básicas.
+Aplicativo de uma simples calculadora, na qual realiza operações básicas. Projeto utilizado para iniciar na programação de aplicativos com React Native.
 
 
 
