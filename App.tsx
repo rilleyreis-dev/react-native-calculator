@@ -14,10 +14,10 @@ export default function App() {
   return (
     <ThemeContext.Provider value={theme}>
       <SafeAreaView style={theme === 'light' ? styles.container : [styles.container , {backgroundColor:myColors.bgDark}]}>
-      <TouchableOpacity style={styles.switchTheme}
-          onPress={ () => setTheme(theme === 'light' ? 'dark' : 'light')}
-        >
-          <Feather name={theme === "light" ? "moon" : "sun"} size={30} color={theme === "light" ? "black" : "white"} />
+        <TouchableOpacity style={styles.switchTheme}
+            onPress={ () => setTheme(theme === 'light' ? 'dark' : 'light')}
+          >
+            <Feather name={theme === "light" ? "moon" : "sun"} size={25} color={theme === "light" ? "black" : "white"} />
         </TouchableOpacity>
         <MyKeyboard />
       </SafeAreaView>
@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
     backgroundColor: myColors.bgLight,
     alignItems: 'center',
     justifyContent: 'flex-start',
-    paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 0,
+    paddingTop: Platform.OS === "android" ? 45 : 0,
   },
   switchTheme: {
     alignSelf: 'flex-end',

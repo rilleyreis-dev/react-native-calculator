@@ -11,6 +11,15 @@ export const Styles = StyleSheet.create({
         alignItems: "center",
         margin: 5
     },
+    btnEqual:{
+        width: 190,
+        height: 90,
+        backgroundColor: myColors.btn,
+        borderRadius: 25,
+        justifyContent: "center",
+        alignItems: "center",
+        margin: 5
+    },
     btnLight:{
         width: 90,
         height: 90,
@@ -45,7 +54,7 @@ export const Styles = StyleSheet.create({
         color: myColors.text
     },
     textDisplay1:{
-        fontSize: 96,
+        fontSize: 80,
         fontWeight: '200',
         color: myColors.text,
         alignSelf: 'flex-end'
@@ -55,6 +64,15 @@ export const Styles = StyleSheet.create({
         fontWeight: '200',
         color: myColors.text,
         alignSelf: 'flex-end'
+    },
+    textHistory:{
+        fontSize: 25,
+        fontWeight: '200',
+        color: myColors.text,
+        alignSelf: 'flex-end',
+        marginBottom: 5,
+        borderBottomColor: '#D5D5D5',
+        borderBottomWidth: 1
     },
     row:{
         maxWidth: '100%',

@@ -8,14 +8,17 @@ interface ButtonProps {
     title: string;
     modify?: boolean;
     isTop?: boolean;
+    equal?: boolean;
 }
 
-export default function Button ({title, onPress, modify, isTop}: ButtonProps){
+export default function Button ({title, onPress, modify, isTop, equal}: ButtonProps){
     const theme = useContext(ThemeContext);
     return (
         <TouchableOpacity
             style={
-                !modify
+                equal
+                ? Styles.btnEqual
+                :!modify
                 ? Styles.btn
                 : theme === 'light'
                 ? Styles.btnLight
